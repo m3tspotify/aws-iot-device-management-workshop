@@ -285,7 +285,7 @@
           "    exit 1\n",
           "fi\n",
           "\n",
-          "wget YOUR_STATIC_S3_WEBSITE/dm-ws.tar\n",
+          "wget  http://trietle-becamex-vntt.s3-website-ap-southeast-1.amazonaws.com/dm-ws.tar\n",
           "\n",
           "tar xf dm-ws.tar -C /home/ec2-user/\n",
           "wget http://download.opensuse.org/repositories/home:/oojah:/mqtt/CentOS_CentOS-7/home:oojah:mqtt.repo -O /etc/yum.repos.d/mqtt.repo\n",
